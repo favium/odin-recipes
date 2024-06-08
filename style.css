@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-color: #111827;
+    font-size: larger;
+    font-weight: 600;
+    color: #CBCFCA;
+}
+
+body.war {
+    background-color: brown;
+}
+
+.index.heading {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+img.menu {
+    height: auto;
+    width: 200px;
+}
+
+button.menu.link {
+    background-color: lightblue;
+    color: 111827;
+    font-size: 22px;
+}
+ol,
+ul {
+    text-align: center;
+    list-style-position: inside;
+    margin-right: 3%;
+}
+
+img.img-boar {
+    height: auto;
+    width: 500px;
+}
+
+button.back.home {
+    font-size: large;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+
+button.back.home.war {
+    background-color: #111827;
+
+}
+
+p.crumb {
+    background-color: antiquewhite;
+    color: #111827;
+    margin-right: 47%;
+    margin-left: 47%;
+}
