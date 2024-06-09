@@ -21,21 +21,17 @@ body.war {
     border-radius: 15px 50px;
 }
 
-#break {
+#break { /* this is between the imgs and buttons in the main menu */
     clear: both;
 }
+
+
 
 p.crumb {
     background-color: antiquewhite;
     color: #111827;
     margin-right: 90%;
     text-align: left;
-}
-
-.divider{
-    width:5px;
-    height:auto;
-    display:inline-block;
 }
 
 /* images */
@@ -51,6 +47,25 @@ img.menu.side {
 .img-boar {
     height: auto;
     width: 500px;
+    border-radius: 15px;
+}
+
+.img-bread {
+    width: auto;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.img-mead {
+    width: auto;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.img-war {
+    height: auto;
+    width: 500px;
+    border-radius: 15px;
 }
 
 /* ^ Apply to all recipe images? */
@@ -67,7 +82,14 @@ button.menu.link {
     background-color: whitesmoke;
     color: 111827;
     font-size: 22px;
+    padding: 10px 24px;
     border-radius: 15px;
+    transition-duration: 0,4s;
+}
+
+button.menu.link:hover {
+    background-color: black;
+    color: whitesmoke;
 }
 
 button.back.home {
@@ -75,12 +97,25 @@ button.back.home {
     background-color: red;
     color: white;
     font-weight: bolder;
+    padding: 14px 24px;
     border-radius: 10px;
+    transition-duration: 0,4s;
+}
+
+button.back.home:hover {
+    background-color: white;
+    color: red;
 }
 
 button.back.home.war {
     background-color: #111827;
     border-radius: 10px;
+    transition-duration: 0,4s;
+}
+
+button.back.home.war:hover{
+    background-color: white;
+    color: black;
 }
 
 #horizontal-buttons {
